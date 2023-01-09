@@ -5,6 +5,7 @@
 * Mainly using RUSBoostClassifier from [imbalanced-ensemble](https://imbalanced-ensemble.readthedocs.io/en/latest/api/ensemble/_autosummary/imbalanced_ensemble.ensemble.RUSBoostClassifier.html#imbalanced_ensemble.ensemble.RUSBoostClassifier)  
 * Prediction is produced by taking average from four models' preiction, two using all features, the others using selected features.  
 ## Rebuilding
+This project was implemented by __Google Colab__
 1. Downloads pretrained models from [__Models link__](https://drive.google.com/drive/folders/19EJSsf3mmSUNqthTP7i4VzodjZz3AsN4?usp=sharing)
 2. Run “pip install imbalanced-ensemble”, and __RESTART RUNTIME__ after it finished.
 3. Change __TRAIN_PATH__, __TEST_PATH__, and __MODEL_PATH__.
