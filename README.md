@@ -1,13 +1,13 @@
 # ML_final_project
 [111上] NYCU ML 的 final project
 ## Introduction
-Competition from <https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/overview>  
-Mainly using RUSBoostClassifier from [imbalanced-ensemble](https://imbalanced-ensemble.readthedocs.io/en/latest/api/ensemble/_autosummary/imbalanced_ensemble.ensemble.RUSBoostClassifier.html#imbalanced_ensemble.ensemble.RUSBoostClassifier)  
-Prediction is produced by taking average from four models' preiction, two using all features, the others using selected features.  
+* Competition from <https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/overview>  
+* Mainly using RUSBoostClassifier from [imbalanced-ensemble](https://imbalanced-ensemble.readthedocs.io/en/latest/api/ensemble/_autosummary/imbalanced_ensemble.ensemble.RUSBoostClassifier.html#imbalanced_ensemble.ensemble.RUSBoostClassifier)  
+* Prediction is produced by taking average from four models' preiction, two using all features, the others using selected features.  
 ## Rebuilding
-1. Downloads pretrained models from [Models link](https://drive.google.com/drive/folders/19EJSsf3mmSUNqthTP7i4VzodjZz3AsN4?usp=sharing)
-2. Run “pip install imbalanced-ensemble”, and restart runtime after it finished.
-3. Change TRAIN_PATH, TEST_PATH, and MODEL_PATH.
+1. Downloads pretrained models from [__Models link__](https://drive.google.com/drive/folders/19EJSsf3mmSUNqthTP7i4VzodjZz3AsN4?usp=sharing)
+2. Run “pip install imbalanced-ensemble”, and __RESTART RUNTIME__ after it finished.
+3. Change __TRAIN_PATH__, __TEST_PATH__, and __MODEL_PATH__.
 4. Run all.
 ## Environment
 Using Google Colab, with installing imbalanced-ensemble, should restart runtime after pip install.  
