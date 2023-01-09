@@ -26,4 +26,9 @@ Using Google Colab, with installing imbalanced-ensemble, should restart runtime 
 |pandas 1.1.3|
 |scikit learn 1.0|ing to int, using its material code.
 3. Add column “measurement_5_wasmissing”, ” measurement_4_wasmissing”, by setting attributes which “measurement_5”, ” measurement_4” is Nan into 1, others as 0.
-4. Set another dataset with selected features: "loading", "measurement_17", "measurement_6", "measurement_4", "measurement_2", "measurement_5_wasmissing", "attribute_3", "attribute_1", "measurement_9", "measurement_4_wasmissing", "measurement_7", "attribute_0", "failure".
+4. Set another dataset with selected features: "loading", "measurement_17", "measurement_6", "measurement_4", "measurement_2", "measurement_5_wasmissing", "attribute_3", "attribute_1", "measurement_9", "measurement_4_wasmissing", "measurement_7", "attribute_0", "failure".  
+## Result
+My model achieve the following performance on submission.
+|Model|Private Score|Public Score|
+|-----|-------------|------------|
+|averag of best 4|0.59141|0.57584|
