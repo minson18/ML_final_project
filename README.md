@@ -7,7 +7,7 @@
 ## Rebuilding
 This project was implemented by __Google Colab__
 1. Downloads pretrained models from [__Models link__](https://drive.google.com/drive/folders/19EJSsf3mmSUNqthTP7i4VzodjZz3AsN4?usp=sharing)
-2. Run “pip install imbalanced-ensemble”, and __RESTART RUNTIME__ after it finished.
+2. Run “pip install imbalanced-ensemble”
 3. Change __TRAIN_PATH__, __TEST_PATH__, and __MODEL_PATH__.
 4. Run all.
 ## Environment
